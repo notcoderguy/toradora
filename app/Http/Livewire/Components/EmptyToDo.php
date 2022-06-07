@@ -3,12 +3,11 @@
 namespace App\Http\Livewire\Components;
 
 use Livewire\Component;
-use App\Models\ToDo;
 
-class Container extends Component
+class EmptyToDo extends Component
 {
     public function render()
     {
-        return view('livewire.components.container');
+        return view('livewire.components.empty-to-do');
     }
 }

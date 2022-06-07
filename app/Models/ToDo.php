@@ -9,5 +9,5 @@ class ToDo extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'description', 'status', 'current_status', 'status_color', 'parent_id'];
+    protected $fillable = ['title', 'description', 'completed', 'parent_id'];
 }

@@ -15,11 +15,8 @@ return new class extends Migration
     {
         Schema::create('to_dos', function (Blueprint $table) {
             $table->integer('id')->autoIncrement()->unsigned()->unique();
-            $table->string('title');
-            $table->string('description');
-            $table->boolean('status')->default(false);
-            $table->integer('current_status')->default(0);
-            $table->string('status_color')->default('#FF0000');
+            $table->string('item');
+            $table->boolean('completed')->default(false);
             $table->integer('parent_id')->nullable();
             $table->timestamps();
         });

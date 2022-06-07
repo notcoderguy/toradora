@@ -1,3 +1,4 @@
 <div>
-    {{-- Success is as dangerous as failure. --}}
+    <h2 class="text-xl font-semibold mt-4 px-4">Todos to do</h2>
+    <livewire:components.all-to-dos />
 </div>
