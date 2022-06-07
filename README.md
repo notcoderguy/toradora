@@ -4,15 +4,23 @@
 
 ToraDora is a ToDo webapp which helps to keep track of the work which enables you to schedule your tasks and projects with to do lists and a calendar.
 
-## Features
+## Roadmap
 
-- Light/dark mode toggle
-- Custom To-do Lists
-- Drag and Drop
-- Multi-language
-- Sub-tasks
-- Markdown Support
-- Customizable user interface
+- [ ] Light/dark mode toggle
+- [ ] Custom To-do Lists
+- [ ] Drag and Drop
+- [ ] Multi-language
+- [ ] Sub-tasks
+- [ ] Markdown Support
+- [ ] Customizable user interface
+- [ ] Boards
+- [ ] Task Priorities
+- [ ] Task Colors
+- [ ] Task Time
+- [ ] Repeating Event
+- [ ] Notifications and reminders
+- [ ] Privacy
+- [ ] Standalone Portable Application
 
 ## Installation
 
@@ -43,14 +51,3 @@ cp .env.example .env
 ```powershell
 php artisan key:generate
 ```
-
-## Roadmap
-
-- Boards
-- Task Priorities
-- Task Colors
-- Task Time
-- Repeating Event
-- Notifications and reminders
-- Privacy
-- Standalone Portable Application
